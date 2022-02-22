@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'app/routes/route.dart';
 import 'app/themes/theme.dart';
 
+import 'view/home/home_screen.dart';
 import 'view/setting/child/about/about_screen.dart';
 import 'view/setting/child/hall_of_fame/hall_of_fame_screen.dart';
 import 'view/setting/child/privacy_policy/privacy_policy_screen.dart';
