@@ -27,7 +27,7 @@ class _SplashContentState extends State<SplashContent> {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Text(
-          'nyaru',
+          'wilang',
           style: kThioAlli.textTheme.headline6!.copyWith(
             color: SetColor.white_900,
             fontSize: SetSize.medium,
