@@ -8,7 +8,6 @@ class SetColor {
   static Color error = Colors.red.shade300;
   static Color warning = Colors.orange.shade300;
   static Color transparent = Colors.transparent;
-  static const Color navy = Color(0xFF050527);
 
 // Main Colors
   static const Color primary = Color(0xFF050527);

@@ -5,13 +5,8 @@ class Routes {
   // intro screen
   static const String intro = '/app';
 
-  // encode screen
-  static const String encode = '/app/encode';
-  static const String encoded = '/app/encode/result';
-
-  // decode screen
-  static const String decode = '/app/decode';
-  static const String decoded = '/app/decoded';
+  // home screen
+  static const String home = '/app/home';
 
   // settings screen
   static const String setting = '/app/setting';
