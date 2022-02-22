@@ -1,4 +1,4 @@
-package com.example.aallithioo
+package com.aallithioo.wilang
 
 import io.flutter.embedding.android.FlutterActivity
 
