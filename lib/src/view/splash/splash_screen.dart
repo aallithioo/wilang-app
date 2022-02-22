@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:nyaru/src/app/widgets/border.dart';
-import 'package:nyaru/src/app/widgets/sizebox.dart';
 
 import '../../app/routes/route.dart';
 import '../../app/themes/font_weight.dart';
@@ -8,6 +6,8 @@ import '../../app/themes/size.dart';
 import '../../app/themes/color.dart';
 import '../../app/themes/theme.dart';
 import '../../app/widgets/padding.dart';
+import '../../app/widgets/border.dart';
+import '../../app/widgets/sizebox.dart';
 
 part './widgets/splash_body.dart';
 part './widgets/splash_content.dart';
