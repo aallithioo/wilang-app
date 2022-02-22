@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.wilang">
+    package="com.aallithioo.wilang">
    <application
         android:label="wilang"
         android:name="${applicationName}"
