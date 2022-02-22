@@ -4,36 +4,36 @@ import '../themes/size.dart';
 
 class SetSizeBox {
   // vertical
-  static const verticalTiny = SizedBox(
+  static final verticalTiny = SizedBox(
     height: SetSize.tiny,
   );
-  static const verticalSmall = SizedBox(
+  static final verticalSmall = SizedBox(
     height: SetSize.small,
   );
-  static const verticalMedium = SizedBox(
+  static final verticalMedium = SizedBox(
     height: SetSize.medium,
   );
-  static const verticalLarge = SizedBox(
+  static final verticalLarge = SizedBox(
     height: SetSize.large,
   );
-  static const verticalHuge = SizedBox(
+  static final verticalHuge = SizedBox(
     height: SetSize.huge,
   );
 
   // horizontal
-  static const horizontalTiny = SizedBox(
+  static final horizontalTiny = SizedBox(
     width: SetSize.tiny,
   );
-  static const horizontalSmall = SizedBox(
+  static final horizontalSmall = SizedBox(
     width: SetSize.small,
   );
-  static const horizontalMedium = SizedBox(
+  static final horizontalMedium = SizedBox(
     width: SetSize.medium,
   );
-  static const horizontalLarge = SizedBox(
+  static final horizontalLarge = SizedBox(
     width: SetSize.large,
   );
-  static const horizontalHuge = SizedBox(
+  static final horizontalHuge = SizedBox(
     width: SetSize.huge,
   );
 }

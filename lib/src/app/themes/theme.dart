@@ -13,4 +13,4 @@ class SetTheme {
   static TextTheme setDarkTextTheme() => SetTextTheme.darkTextTheme;
 }
 
-final kThioAlli = SetTheme.setLightTheme();
+final kThioAlli = SetTheme.setDarkTheme();

@@ -7,12 +7,14 @@ class SetThemeData {
   static ThemeData darkThemeData() {
     return ThemeData(
       brightness: Brightness.dark,
+      scaffoldBackgroundColor: SetColor.navy,
+      backgroundColor: SetColor.navy,
       floatingActionButtonTheme: FloatingActionButtonThemeData(
-        foregroundColor: SetColor.white,
-        backgroundColor: SetColor.black.withOpacity(0.6),
+        foregroundColor: SetColor.light,
+        backgroundColor: SetColor.navy,
       ),
-      bottomNavigationBarTheme: BottomNavigationBarThemeData(
-        selectedItemColor: SetColor.black.withOpacity(0.6),
+      bottomNavigationBarTheme: const BottomNavigationBarThemeData(
+        selectedItemColor: SetColor.navy,
       ),
       textTheme: SetTextTheme.lightTextTheme,
     );
@@ -21,12 +23,14 @@ class SetThemeData {
   static ThemeData lightThemeData() {
     return ThemeData(
       brightness: Brightness.light,
+      scaffoldBackgroundColor: SetColor.light,
+      backgroundColor: SetColor.light,
       floatingActionButtonTheme: FloatingActionButtonThemeData(
-        foregroundColor: SetColor.black,
-        backgroundColor: SetColor.white.withOpacity(0.6),
+        foregroundColor: SetColor.navy,
+        backgroundColor: SetColor.light,
       ),
       bottomNavigationBarTheme: BottomNavigationBarThemeData(
-        selectedItemColor: SetColor.white.withOpacity(0.6),
+        selectedItemColor: SetColor.light,
       ),
       textTheme: SetTextTheme.darkTextTheme,
     );

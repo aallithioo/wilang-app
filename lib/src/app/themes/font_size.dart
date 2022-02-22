@@ -1,9 +1,9 @@
-import 'package:aallithioo/src/app/themes/size.dart';
+import 'size.dart';
 
 class SetFontSize {
-  static const double tiny = SetSize.tiny;
-  static const double small = SetSize.small;
-  static const double medium = SetSize.medium;
-  static const double large = SetSize.large;
-  static const double huge = SetSize.huge;
+  static double tiny = SetSize.tiny;
+  static double small = SetSize.small;
+  static double medium = SetSize.medium;
+  static double large = SetSize.large;
+  static double huge = SetSize.huge;
 }

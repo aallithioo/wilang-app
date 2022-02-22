@@ -4,142 +4,142 @@ import '../themes/size.dart';
 
 class SetBorder {
   // all
-  static const BorderRadius radiusAllTiny = BorderRadius.all(
+  static BorderRadius radiusAllTiny = BorderRadius.all(
     Radius.circular(
       SetSize.tiny,
     ),
   );
-  static const BorderRadius radiusAllSmall = BorderRadius.all(
+  static BorderRadius radiusAllSmall = BorderRadius.all(
     Radius.circular(
       SetSize.small,
     ),
   );
-  static const BorderRadius radiusAllMedium = BorderRadius.all(
+  static BorderRadius radiusAllMedium = BorderRadius.all(
     Radius.circular(
       SetSize.medium,
     ),
   );
-  static const BorderRadius radiusAllLarge = BorderRadius.all(
+  static BorderRadius radiusAllLarge = BorderRadius.all(
     Radius.circular(
       SetSize.large,
     ),
   );
-  static const BorderRadius radiusAllHuge = BorderRadius.all(
+  static BorderRadius radiusAllHuge = BorderRadius.all(
     Radius.circular(
       SetSize.huge,
     ),
   );
 
   // top left
-  static const BorderRadius radiusTopLeftTiny = BorderRadius.only(
+  static BorderRadius radiusTopLeftTiny = BorderRadius.only(
     topLeft: Radius.circular(
       SetSize.tiny,
     ),
   );
-  static const BorderRadius radiusTopLeftSmall = BorderRadius.only(
+  static BorderRadius radiusTopLeftSmall = BorderRadius.only(
     topLeft: Radius.circular(
       SetSize.small,
     ),
   );
-  static const BorderRadius radiusTopLeftMedium = BorderRadius.only(
+  static BorderRadius radiusTopLeftMedium = BorderRadius.only(
     topLeft: Radius.circular(
       SetSize.medium,
     ),
   );
-  static const BorderRadius radiusTopLeftLarge = BorderRadius.only(
+  static BorderRadius radiusTopLeftLarge = BorderRadius.only(
     topLeft: Radius.circular(
       SetSize.large,
     ),
   );
-  static const BorderRadius radiusTopLeftHuge = BorderRadius.only(
+  static BorderRadius radiusTopLeftHuge = BorderRadius.only(
     topLeft: Radius.circular(
       SetSize.huge,
     ),
   );
 
   // top right
-  static const BorderRadius radiusTopRightTiny = BorderRadius.only(
+  static BorderRadius radiusTopRightTiny = BorderRadius.only(
     topRight: Radius.circular(
       SetSize.tiny,
     ),
   );
-  static const BorderRadius radiusTopRightSmall = BorderRadius.only(
+  static BorderRadius radiusTopRightSmall = BorderRadius.only(
     topRight: Radius.circular(
       SetSize.small,
     ),
   );
-  static const BorderRadius radiusTopRightMedium = BorderRadius.only(
+  static BorderRadius radiusTopRightMedium = BorderRadius.only(
     topRight: Radius.circular(
       SetSize.medium,
     ),
   );
-  static const BorderRadius radiusTopRightLarge = BorderRadius.only(
+  static BorderRadius radiusTopRightLarge = BorderRadius.only(
     topRight: Radius.circular(
       SetSize.large,
     ),
   );
-  static const BorderRadius radiusTopRightHuge = BorderRadius.only(
+  static BorderRadius radiusTopRightHuge = BorderRadius.only(
     topRight: Radius.circular(
       SetSize.huge,
     ),
   );
 
   // bottom left
-  static const BorderRadius radiusBottomLeftTiny = BorderRadius.only(
+  static BorderRadius radiusBottomLeftTiny = BorderRadius.only(
     bottomLeft: Radius.circular(
       SetSize.tiny,
     ),
   );
-  static const BorderRadius radiusBottomLeftSmall = BorderRadius.only(
+  static BorderRadius radiusBottomLeftSmall = BorderRadius.only(
     bottomLeft: Radius.circular(
       SetSize.small,
     ),
   );
-  static const BorderRadius radiusBottomLeftMedium = BorderRadius.only(
+  static BorderRadius radiusBottomLeftMedium = BorderRadius.only(
     bottomLeft: Radius.circular(
       SetSize.medium,
     ),
   );
-  static const BorderRadius radiusBottomLeftLarge = BorderRadius.only(
+  static BorderRadius radiusBottomLeftLarge = BorderRadius.only(
     bottomLeft: Radius.circular(
       SetSize.large,
     ),
   );
-  static const BorderRadius radiusBottomLeftHuge = BorderRadius.only(
+  static BorderRadius radiusBottomLeftHuge = BorderRadius.only(
     bottomLeft: Radius.circular(
       SetSize.huge,
     ),
   );
 
   // bottom right
-  static const BorderRadius radiusBottomRightTiny = BorderRadius.only(
+  static BorderRadius radiusBottomRightTiny = BorderRadius.only(
     bottomRight: Radius.circular(
       SetSize.tiny,
     ),
   );
-  static const BorderRadius radiusBottomRightSmall = BorderRadius.only(
+  static BorderRadius radiusBottomRightSmall = BorderRadius.only(
     bottomRight: Radius.circular(
       SetSize.small,
     ),
   );
-  static const BorderRadius radiusBottomRightMedium = BorderRadius.only(
+  static BorderRadius radiusBottomRightMedium = BorderRadius.only(
     bottomRight: Radius.circular(
       SetSize.medium,
     ),
   );
-  static const BorderRadius radiusBottomRightLarge = BorderRadius.only(
+  static BorderRadius radiusBottomRightLarge = BorderRadius.only(
     bottomRight: Radius.circular(
       SetSize.large,
     ),
   );
-  static const BorderRadius radiusBottomRightHuge = BorderRadius.only(
+  static BorderRadius radiusBottomRightHuge = BorderRadius.only(
     bottomRight: Radius.circular(
       SetSize.huge,
     ),
   );
 
   // top
-  static const BorderRadius radiusTopTiny = BorderRadius.only(
+  static BorderRadius radiusTopTiny = BorderRadius.only(
     topLeft: Radius.circular(
       SetSize.tiny,
     ),
@@ -147,7 +147,7 @@ class SetBorder {
       SetSize.tiny,
     ),
   );
-  static const BorderRadius radiusTopSmall = BorderRadius.only(
+  static BorderRadius radiusTopSmall = BorderRadius.only(
     topLeft: Radius.circular(
       SetSize.small,
     ),
@@ -155,7 +155,7 @@ class SetBorder {
       SetSize.small,
     ),
   );
-  static const BorderRadius radiusTopMedium = BorderRadius.only(
+  static BorderRadius radiusTopMedium = BorderRadius.only(
     topLeft: Radius.circular(
       SetSize.medium,
     ),
@@ -163,7 +163,7 @@ class SetBorder {
       SetSize.medium,
     ),
   );
-  static const BorderRadius radiusTopLarge = BorderRadius.only(
+  static BorderRadius radiusTopLarge = BorderRadius.only(
     topLeft: Radius.circular(
       SetSize.large,
     ),
@@ -171,7 +171,7 @@ class SetBorder {
       SetSize.large,
     ),
   );
-  static const BorderRadius radiusTopHuge = BorderRadius.only(
+  static BorderRadius radiusTopHuge = BorderRadius.only(
     topLeft: Radius.circular(
       SetSize.huge,
     ),
@@ -181,7 +181,7 @@ class SetBorder {
   );
 
   // bottom
-  static const BorderRadius radiusBottomTiny = BorderRadius.only(
+  static BorderRadius radiusBottomTiny = BorderRadius.only(
     bottomLeft: Radius.circular(
       SetSize.tiny,
     ),
@@ -189,7 +189,7 @@ class SetBorder {
       SetSize.tiny,
     ),
   );
-  static const BorderRadius radiusBottomSmall = BorderRadius.only(
+  static BorderRadius radiusBottomSmall = BorderRadius.only(
     bottomLeft: Radius.circular(
       SetSize.small,
     ),
@@ -197,7 +197,7 @@ class SetBorder {
       SetSize.small,
     ),
   );
-  static const BorderRadius radiusBottomMedium = BorderRadius.only(
+  static BorderRadius radiusBottomMedium = BorderRadius.only(
     bottomLeft: Radius.circular(
       SetSize.medium,
     ),
@@ -205,7 +205,7 @@ class SetBorder {
       SetSize.medium,
     ),
   );
-  static const BorderRadius radiusBottomLarge = BorderRadius.only(
+  static BorderRadius radiusBottomLarge = BorderRadius.only(
     bottomLeft: Radius.circular(
       SetSize.large,
     ),
@@ -213,7 +213,7 @@ class SetBorder {
       SetSize.large,
     ),
   );
-  static const BorderRadius radiusBottomHuge = BorderRadius.only(
+  static BorderRadius radiusBottomHuge = BorderRadius.only(
     bottomLeft: Radius.circular(
       SetSize.huge,
     ),
@@ -223,7 +223,7 @@ class SetBorder {
   );
 
   // left
-  static const BorderRadius radiusLeftTiny = BorderRadius.only(
+  static BorderRadius radiusLeftTiny = BorderRadius.only(
     topLeft: Radius.circular(
       SetSize.tiny,
     ),
@@ -231,7 +231,7 @@ class SetBorder {
       SetSize.tiny,
     ),
   );
-  static const BorderRadius radiusLeftSmall = BorderRadius.only(
+  static BorderRadius radiusLeftSmall = BorderRadius.only(
     topLeft: Radius.circular(
       SetSize.small,
     ),
@@ -239,7 +239,7 @@ class SetBorder {
       SetSize.small,
     ),
   );
-  static const BorderRadius radiusLeftMedium = BorderRadius.only(
+  static BorderRadius radiusLeftMedium = BorderRadius.only(
     topLeft: Radius.circular(
       SetSize.medium,
     ),
@@ -247,7 +247,7 @@ class SetBorder {
       SetSize.medium,
     ),
   );
-  static const BorderRadius radiusLeftLarge = BorderRadius.only(
+  static BorderRadius radiusLeftLarge = BorderRadius.only(
     topLeft: Radius.circular(
       SetSize.large,
     ),
@@ -255,7 +255,7 @@ class SetBorder {
       SetSize.large,
     ),
   );
-  static const BorderRadius radiusLeftHuge = BorderRadius.only(
+  static BorderRadius radiusLeftHuge = BorderRadius.only(
     topLeft: Radius.circular(
       SetSize.huge,
     ),
@@ -265,7 +265,7 @@ class SetBorder {
   );
 
   // right
-  static const BorderRadius radiusRightTiny = BorderRadius.only(
+  static BorderRadius radiusRightTiny = BorderRadius.only(
     topRight: Radius.circular(
       SetSize.tiny,
     ),
@@ -273,7 +273,7 @@ class SetBorder {
       SetSize.tiny,
     ),
   );
-  static const BorderRadius radiusRightSmall = BorderRadius.only(
+  static BorderRadius radiusRightSmall = BorderRadius.only(
     topRight: Radius.circular(
       SetSize.small,
     ),
@@ -281,7 +281,7 @@ class SetBorder {
       SetSize.small,
     ),
   );
-  static const BorderRadius radiusRightMedium = BorderRadius.only(
+  static BorderRadius radiusRightMedium = BorderRadius.only(
     topRight: Radius.circular(
       SetSize.medium,
     ),
@@ -289,7 +289,7 @@ class SetBorder {
       SetSize.medium,
     ),
   );
-  static const BorderRadius radiusRightLarge = BorderRadius.only(
+  static BorderRadius radiusRightLarge = BorderRadius.only(
     topRight: Radius.circular(
       SetSize.large,
     ),
@@ -297,7 +297,7 @@ class SetBorder {
       SetSize.large,
     ),
   );
-  static const BorderRadius radiusRightHuge = BorderRadius.only(
+  static BorderRadius radiusRightHuge = BorderRadius.only(
     topRight: Radius.circular(
       SetSize.huge,
     ),

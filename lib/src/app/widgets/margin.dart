@@ -4,121 +4,121 @@ import '../themes/size.dart';
 
 class SetMargin {
   // Only top margin
-  static const EdgeInsets onlyTopTiny = EdgeInsets.only(
+  static EdgeInsets onlyTopTiny = EdgeInsets.only(
     top: SetSize.tiny,
   );
-  static const EdgeInsets onlyTopSmall = EdgeInsets.only(
+  static EdgeInsets onlyTopSmall = EdgeInsets.only(
     top: SetSize.small,
   );
-  static const EdgeInsets onlyTopMedium = EdgeInsets.only(
+  static EdgeInsets onlyTopMedium = EdgeInsets.only(
     top: SetSize.medium,
   );
-  static const EdgeInsets onlyTopLarge = EdgeInsets.only(
+  static EdgeInsets onlyTopLarge = EdgeInsets.only(
     top: SetSize.large,
   );
-  static const EdgeInsets onlyTophuge = EdgeInsets.only(
+  static EdgeInsets onlyTophuge = EdgeInsets.only(
     top: SetSize.huge,
   );
 
   // Only bottom margin
-  static const EdgeInsets onlyBottomTiny = EdgeInsets.only(
+  static EdgeInsets onlyBottomTiny = EdgeInsets.only(
     bottom: SetSize.tiny,
   );
-  static const EdgeInsets onlyBottomSmall = EdgeInsets.only(
+  static EdgeInsets onlyBottomSmall = EdgeInsets.only(
     bottom: SetSize.small,
   );
-  static const EdgeInsets onlyBottomMedium = EdgeInsets.only(
+  static EdgeInsets onlyBottomMedium = EdgeInsets.only(
     bottom: SetSize.medium,
   );
-  static const EdgeInsets onlyBottomLarge = EdgeInsets.only(
+  static EdgeInsets onlyBottomLarge = EdgeInsets.only(
     bottom: SetSize.large,
   );
-  static const EdgeInsets onlyBottomHuge = EdgeInsets.only(
+  static EdgeInsets onlyBottomHuge = EdgeInsets.only(
     bottom: SetSize.huge,
   );
 
   // Only left margin
-  static const EdgeInsets onlyLeftTiny = EdgeInsets.only(
+  static EdgeInsets onlyLeftTiny = EdgeInsets.only(
     left: SetSize.tiny,
   );
-  static const EdgeInsets onlyLeftSmall = EdgeInsets.only(
+  static EdgeInsets onlyLeftSmall = EdgeInsets.only(
     left: SetSize.small,
   );
-  static const EdgeInsets onlyLeftMedium = EdgeInsets.only(
+  static EdgeInsets onlyLeftMedium = EdgeInsets.only(
     left: SetSize.medium,
   );
-  static const EdgeInsets onlyLeftLarge = EdgeInsets.only(
+  static EdgeInsets onlyLeftLarge = EdgeInsets.only(
     left: SetSize.large,
   );
-  static const EdgeInsets onlyLeftHuge = EdgeInsets.only(
+  static EdgeInsets onlyLeftHuge = EdgeInsets.only(
     left: SetSize.huge,
   );
 
   // Only right margin
-  static const EdgeInsets onlyRightTiny = EdgeInsets.only(
+  static EdgeInsets onlyRightTiny = EdgeInsets.only(
     right: SetSize.tiny,
   );
-  static const EdgeInsets onlyRightSmall = EdgeInsets.only(
+  static EdgeInsets onlyRightSmall = EdgeInsets.only(
     right: SetSize.small,
   );
-  static const EdgeInsets onlyRightMedium = EdgeInsets.only(
+  static EdgeInsets onlyRightMedium = EdgeInsets.only(
     right: SetSize.medium,
   );
-  static const EdgeInsets onlyRightLarge = EdgeInsets.only(
+  static EdgeInsets onlyRightLarge = EdgeInsets.only(
     right: SetSize.large,
   );
-  static const EdgeInsets onlyRightHuge = EdgeInsets.only(
+  static EdgeInsets onlyRightHuge = EdgeInsets.only(
     right: SetSize.huge,
   );
 
   // Symetric vertical margin
-  static const EdgeInsets symetricVerticalTiny = EdgeInsets.symmetric(
+  static EdgeInsets symetricVerticalTiny = EdgeInsets.symmetric(
     vertical: SetSize.tiny,
   );
-  static const EdgeInsets symetricVerticalSmall = EdgeInsets.symmetric(
+  static EdgeInsets symetricVerticalSmall = EdgeInsets.symmetric(
     vertical: SetSize.small,
   );
-  static const EdgeInsets symetricVerticalMedium = EdgeInsets.symmetric(
+  static EdgeInsets symetricVerticalMedium = EdgeInsets.symmetric(
     vertical: SetSize.medium,
   );
-  static const EdgeInsets symetricVerticalLarge = EdgeInsets.symmetric(
+  static EdgeInsets symetricVerticalLarge = EdgeInsets.symmetric(
     vertical: SetSize.large,
   );
-  static const EdgeInsets symetricVerticalHuge = EdgeInsets.symmetric(
+  static EdgeInsets symetricVerticalHuge = EdgeInsets.symmetric(
     vertical: SetSize.huge,
   );
 
   // Symetric horizontal margin
-  static const EdgeInsets symetricHorizontalTiny = EdgeInsets.symmetric(
+  static EdgeInsets symetricHorizontalTiny = EdgeInsets.symmetric(
     horizontal: SetSize.tiny,
   );
-  static const EdgeInsets symetricHorizontalSmall = EdgeInsets.symmetric(
+  static EdgeInsets symetricHorizontalSmall = EdgeInsets.symmetric(
     horizontal: SetSize.small,
   );
-  static const EdgeInsets symetricHorizontalMedium = EdgeInsets.symmetric(
+  static EdgeInsets symetricHorizontalMedium = EdgeInsets.symmetric(
     horizontal: SetSize.medium,
   );
-  static const EdgeInsets symetricHorizontalLarge = EdgeInsets.symmetric(
+  static EdgeInsets symetricHorizontalLarge = EdgeInsets.symmetric(
     horizontal: SetSize.large,
   );
-  static const EdgeInsets symetricHorizontalHuge = EdgeInsets.symmetric(
+  static EdgeInsets symetricHorizontalHuge = EdgeInsets.symmetric(
     horizontal: SetSize.huge,
   );
 
   // All margin
-  static const EdgeInsets allTiny = EdgeInsets.all(
+  static EdgeInsets allTiny = EdgeInsets.all(
     SetSize.tiny,
   );
-  static const EdgeInsets allSmall = EdgeInsets.all(
+  static EdgeInsets allSmall = EdgeInsets.all(
     SetSize.small,
   );
-  static const EdgeInsets allMedium = EdgeInsets.all(
+  static EdgeInsets allMedium = EdgeInsets.all(
     SetSize.medium,
   );
-  static const EdgeInsets allLarge = EdgeInsets.all(
+  static EdgeInsets allLarge = EdgeInsets.all(
     SetSize.large,
   );
-  static const EdgeInsets allHuge = EdgeInsets.all(
+  static EdgeInsets allHuge = EdgeInsets.all(
     SetSize.huge,
   );
 }
