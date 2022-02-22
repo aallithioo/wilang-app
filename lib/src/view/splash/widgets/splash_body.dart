@@ -6,7 +6,12 @@ class SplashBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-      child: Center(),
+      child: Padding(
+        padding: SetPadding.symetricHorizontalLarge,
+        child: const Center(
+          child: SplashContent(),
+        ),
+      ),
     );
   }
 }
