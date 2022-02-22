@@ -8,7 +8,9 @@ class HomeBody extends StatelessWidget {
     return SafeArea(
       child: Padding(
         padding: SetPadding.symetricHorizontalMedium,
-        child: const HomeContent(),
+        child: const SingleChildScrollView(
+          child: HomeContent(),
+        ),
       ),
     );
   }
