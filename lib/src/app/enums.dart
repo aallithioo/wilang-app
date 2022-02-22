@@ -1,5 +1,4 @@
 enum MenuState {
-  encode,
-  decode,
+  home,
   setting,
 }
