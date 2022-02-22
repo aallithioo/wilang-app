@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
       routes: {
         Routes.splash: (context) => const SplashScreen(),
         Routes.intro: (context) => const IntroScreen(),
+        Routes.home: (context) => const HomeScreen(),
         Routes.setting: (context) => const SettingScreen(),
         Routes.releaseNotes: (context) => const ReleaseNotesScreen(),
         Routes.theme: (context) => const ThemeScreen(),
