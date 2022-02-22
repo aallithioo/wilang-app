@@ -12,7 +12,7 @@ class IntroBody extends StatelessWidget {
         occupation: 'ordinary random guy',
         message:
             'hi... here i am present my little app\nto you all, hope you enjoy!',
-        press: Routes.encode,
+        press: Routes.home,
       ),
     );
   }
